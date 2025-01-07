@@ -7,5 +7,6 @@ FRAME_RATE = 60
 
 TITLE = "RPG"
 
-ASSETS_PATH = os.path.join("..", "..", "assets")
+ASSETS_PATH = os.path.join(os.getcwd(), "assets")
 CHARACTER_ANIMS_PATH = os.path.join(ASSETS_PATH, "character")
+
